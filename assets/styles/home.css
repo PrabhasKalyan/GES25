@@ -1,0 +1,190 @@
+.swiper-container {
+width: 80%;
+height: 300px;
+}
+.swiper-slide {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5rem;
+color: white;
+background: #007bff;
+height: 250px;
+border-radius: 10px;
+transition: transform 0.6s ease, filter 0.6s ease;
+}
+.swiper-slide.blur {
+filter: blur(4px);
+opacity: 0.5;
+transform: scale(0.8);
+}
+.swiper-slide.highlight {
+transform: scale(1.2);
+filter: none;
+opacity: 1;
+}
+
+
+
+.perspective {
+    height: 100%;
+    perspective: 300vw;
+    position: fixed;
+    width: 100%;
+    z-index: -2;
+  }
+  .grid-3d-bottom{
+    box-shadow: 0px 0px 10px 5px white;
+    height: 58%;
+    overflow: hidden;
+    position: absolute;
+    transform: scaleX(2) rotateX(90deg);
+    width: 100%;
+    bottom: 0; 
+    opacity: 0.4;
+  }
+  .lines-horizontal {
+    -webkit-animation: run 10s linear infinite;
+    animation: run 10s linear infinite;
+    position: relative;
+  }
+  .line-h {
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 5px #1400ff;
+    height: 1px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+    opacity: 0.4;
+  }
+  .lines-vertical {
+    position: absolute;
+    bottom: 0; 
+    display: flex;
+    height: 100%;
+  }
+  .line-v {
+    background-color: white;
+    box-shadow: 0px 0px 5px white;
+    height: 100%;
+    margin-right: 50px;
+    min-width: 1px;
+    opacity: 0.4;
+  }
+  
+  @keyframes run {
+    from {
+      transform: translate(0px, -100%);
+    }
+    to {
+      transform: translate(0px, 0%);
+    }
+  }
+  @media (max-height: 300px) {
+    .perspective {
+      perspective: 110px;
+    }
+  }
+  @media (min-height: 301px) and (max-height: 400px) {
+    .perspective {
+      perspective: 150px;
+    }
+  }
+  @media (min-height: 401px) and (max-height: 600px) {
+    .perspective {
+      perspective: 200px;
+    }
+  }
+  @media (min-height: 601px) {
+    .perspective {
+      perspective: 300px;
+    }
+  }
+  .accelarate {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+
+
+
+
+footer {
+    position: relative;
+    overflow: hidden;
+    background-image: radial-gradient(ellipse at top, 0%, #1b2735 95%);
+}
+
+  @keyframes meteor {
+    0% {
+        opacity: 1;
+        transform: translate(-300px, -300px) rotate(-45deg);
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        transform: translate(300px, 300px) rotate(-45deg);
+        opacity: 0;
+    }
+}
+
+.meteor {
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+    transform: rotate(-45deg);
+    animation: meteor 5s linear infinite;
+}
+
+
+@keyframes meteor {
+    0% {
+        opacity: 1;
+        transform: translate(-300px, -300px) rotate(-45deg);
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        transform: translate(300px, 300px) rotate(-45deg);
+        opacity: 0;
+    }
+}
+
+.meteor {
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+    transform: rotate(-45deg);
+    animation: meteor 5s linear infinite;
+}
+
+
+.meteor-1 { top: 50px; left: 10%; animation-duration: 5s; }
+.meteor-2 { top: 100px; left: 20%; animation-duration: 6s; }
+.meteor-3 { top: 150px; left: 30%; animation-duration: 7s; }
+.meteor-4 { top: 200px; left: 40%; animation-duration: 4s; }
+.meteor-5 { top: 250px; left: 50%; animation-duration: 6s; }
+.meteor-6 { top: 300px; left: 60%; animation-duration: 5s; }
+.meteor-7 { top: 50px; left: 70%; animation-duration: 7s; }
+.meteor-8 { top: 100px; left: 80%; animation-duration: 5s; }
+.meteor-9 { top: 150px; left: 90%; animation-duration: 6s; }
+.meteor-10 { top: 200px; left: 30%; animation-duration: 4s; }
+.meteor-11 { top: 250px; left: 40%; animation-duration: 5s; }
+.meteor-12 { top: 300px; left: 50%; animation-duration: 6s; }
+.meteor-13 { top: 50px; left: 60%; animation-duration: 5s; }
+.meteor-14 { top: 100px; left: 70%; animation-duration: 7s; }
+.meteor-15 { top: 150px; left: 80%; animation-duration: 6s; }
+
+
+
+#speakers {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
