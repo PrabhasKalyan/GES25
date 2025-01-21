@@ -13,6 +13,9 @@ import {AnimatedPinDemo} from "../src/components/cna3d.jsx"
 import {AnimatedTestimonialsDemo} from "../src/components/events.jsx"
 import { HeroScrollDemo,Competitions } from './components/cna.jsx';
 import SimpleMenu from "../src/components/menu"
+import { CompetitionsDemo } from '../src/components/copmpetitions';
+import { MarqueeDemo } from '../src/components/speakers';
+import ContactCard from '../src/components/team';
 
 
 createRoot(document.getElementById('ges')).render(
@@ -27,7 +30,7 @@ createRoot(document.getElementById('globe')).render(
 
 createRoot(document.getElementById('speakers')).render(
   <BrowserRouter>
-    <ThreeDPhotoCarousel/>
+    <MarqueeDemo></MarqueeDemo>
   </BrowserRouter>  
 )
 
@@ -40,10 +43,13 @@ createRoot(document.getElementById('cards2')).render(
 
 createRoot(document.getElementById('cards3')).render(
   <BrowserRouter>
- <Competitions></Competitions>
+ <CompetitionsDemo></CompetitionsDemo>
   </BrowserRouter>
 )
 
+createRoot(document.getElementById('team')).render(
+  <ContactCard></ContactCard>
+)
 
 createRoot(document.getElementById('cards1')).render(
   <BrowserRouter>
@@ -58,7 +64,28 @@ createRoot(document.getElementById('cards1')).render(
       title="PRODUCT-EXPO"
       description="Showcase your innovative products in front of a vast audience comprising the tech-savvy generation of students, eminent entrepreneurs, industry leaders, and professors."
       image="./assets/images/sna/2011.i504.024_isometric expo stand exhibition illustration.jpg" />
+      <ThreeDCardDemo 
+      title="Million At Stake"
+      description="Showcase your innovative products in front of a vast audience comprising the tech-savvy generation of students, eminent entrepreneurs, industry leaders, and professors."
+      image="./assets/images/sna/2011.i504.024_isometric expo stand exhibition illustration.jpg" />
+      <ThreeDCardDemo 
+      title="Empressario"
+      description="Showcase your innovative products in front of a vast audience comprising the tech-savvy generation of students, eminent entrepreneurs, industry leaders, and professors."
+      image="./assets/images/sna/2011.i504.024_isometric expo stand exhibition illustration.jpg" />
+      
     </div>
   </BrowserRouter>
 )
 
+// createRoot(document.getElementById('team')).render(
+//   <BrowserRouter>
+//   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px',flexWrap:'wrap' }}>
+//       <ThreeDCardDemo title="Nihal Reddy"
+//   image="https://media.licdn.com/dms/image/v2/D5603AQGg6ci4uvONqw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722336124694?e=1743033600&v=beta&t=q_q845OsgIvSuEDDx1UOhEJ5mZHCBgX1ChGk-cD0EG4"
+//   description="Contact: nihal.reddy@ecell-iitkgp.org" />
+//       <ThreeDCardDemo title="INVESTOR-STARTUP CONNECT"
+//       description="Contact: akriti.mishra@ecell-iitkgp.org"
+//       image="https://media.licdn.com/dms/image/v2/D4D03AQHfCPXFgtJ34Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1699365064844?e=1743033600&v=beta&t=IPIxtdgW45DKSAI1zqr2oGZvscE8sQmrAFDmDFNh8NY" />
+//     </div>
+//   </BrowserRouter>
+// )

@@ -97,6 +97,7 @@ export function HyperText({
       {...props}
     >
       <AnimatePresence>
+        <div style={{color:"#483285"}}>
         {displayText.map((letter, index) => (
           <motion.span
             key={index}
@@ -105,6 +106,7 @@ export function HyperText({
             {letter.toUpperCase()}
           </motion.span>
         ))}
+        </div>
       </AnimatePresence>
     </motion.div>
   );
