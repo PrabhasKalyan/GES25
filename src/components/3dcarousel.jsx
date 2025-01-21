@@ -39,15 +39,15 @@ export function useMediaQuery(query, { defaultValue = false, initializeWithValue
 }
 
 const keywords = [
-  "assets/images/abhijit.jpeg",
-  "assets/images/akilur-rahman.jpg",
-  "assets/images/amit.avif",
-  "assets/images/ges_speakers.jpeg",
-  "assets/images/kanav.jpeg",
-  "assets/images/pulkit.avif",
-  "assets/images/sean.webp",
-  "assets/images/suresh.jpeg",
-  "assets/images/vishal.avif",
+  "./assets/images/abhijit.jpeg",
+  "./assets/images/akilur-rahman.jpg",
+  "./assets/images/amit.avif",
+  "./assets/images/ges_speakers.jpeg",
+  "./assets/images/kanav.jpeg",
+  "./assets/images/pulkit.avif",
+  "./assets/images/sean.webp",
+  "./assets/images/suresh.jpeg",
+  "./assets/images/vishal.avif",
 ];
 
 const text = [

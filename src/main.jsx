@@ -48,16 +48,16 @@ createRoot(document.getElementById('cards3')).render(
 createRoot(document.getElementById('cards1')).render(
   <BrowserRouter>
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px',flexWrap:'wrap' }}>
-      <ThreeDCardDemo title="Million At Stake"
-  image="assets/images/sna/5348769.jpg"
+      <ThreeDCardDemo title="Intern Carnival"
+  image="./assets/images/sna/5348769.jpg"
   description="Intern Carnival is a curated event providing startups an exciting opportunity to hire interns from a pool of talented IIT Kharagpur students and enthusiastic GES '24 participants." />
       <ThreeDCardDemo title="INVESTOR-STARTUP CONNECT"
       description="Provides opportunities to startups for funding and mentoring by industry experts, with a chance to pitch to investors from varied sectors and top VCs from the country and even abroad!"
-      image="assets/images/sna/1904.i109.030.investment online trading isometric.jpg" />
+      image="./assets/images/sna/1904.i109.030.investment online trading isometric.jpg" />
       <ThreeDCardDemo 
       title="PRODUCT-EXPO"
       description="Showcase your innovative products in front of a vast audience comprising the tech-savvy generation of students, eminent entrepreneurs, industry leaders, and professors."
-      image="assets/images/sna/2011.i504.024_isometric expo stand exhibition illustration.jpg" />
+      image="./assets/images/sna/2011.i504.024_isometric expo stand exhibition illustration.jpg" />
     </div>
   </BrowserRouter>
 )

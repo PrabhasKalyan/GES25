@@ -36,19 +36,19 @@ export function HeroScrollDemo() {
         <SwiperSlide style={{background:"none"}}>
           <ThreeDCardDemo
           title="Business Game"
-          image="assets/images/cna/businessgame.jpg"
+          image="./assets/images/cna/businessgame.jpg"
           description="Business game is a competition consisting of four parts to solve real world problems in order to test analytical skills and entrepreneurial mind." />
         </SwiperSlide >
         <SwiperSlide style={{background:"none"}}>
           <ThreeDCardDemo
           title="Invest-O-Spective"
-          image="assets/images/cna/20230204_165317.jpg"
+          image="./assets/images/cna/20230204_165317.jpg"
           description="A unique competition where you get to learn more about the process of analyzing a startup to make an informed decision on a potential investment. Participate and demonstrate your analytical, communication, and presentation skills." />
         </SwiperSlide>
         <SwiperSlide style={{background:"none"}}>
           <ThreeDCardDemo
           title="R&D Symposium"
-          image="assets/images/cna/20230204_135635.jpg"
+          image="./assets/images/cna/20230204_135635.jpg"
           description="RnD Symposium is a unique competition held to mix the 2 fields of entrepreneurship and research and development. The vision is to introduce entrepreneurship to Research and Mtech scholars who will be using their research to produce feasible real-life applications and help with their research." />
         </SwiperSlide>
       </Swiper>
