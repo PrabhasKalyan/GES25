@@ -190,7 +190,7 @@ const Carousel = memo(({ handleClick, controls, cards, isCarouselActive }) => {
           animate={{ filter: "blur(0px)" }}
           transition={transition}
         />
-        <p className="mt-2 text-center text-sm text-white">
+        <p style={{opacity:0.5}} className="mt-2 text-center text-sm text-white">
           {text[i]}
         </p>
       </motion.div>

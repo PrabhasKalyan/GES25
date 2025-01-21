@@ -35,7 +35,7 @@ createRoot(document.getElementById('cards2')).render(
   <BrowserRouter>
     <AnimatedTestimonialsDemo></AnimatedTestimonialsDemo>
   </BrowserRouter>
-  
+
 )
 
 createRoot(document.getElementById('cards3')).render(
@@ -48,7 +48,7 @@ createRoot(document.getElementById('cards3')).render(
 createRoot(document.getElementById('cards1')).render(
   <BrowserRouter>
   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px',flexWrap:'wrap' }}>
-      <ThreeDCardDemo title="Intern Carnival"
+      <ThreeDCardDemo title="Million At Stake"
   image="assets/images/sna/5348769.jpg"
   description="Intern Carnival is a curated event providing startups an exciting opportunity to hire interns from a pool of talented IIT Kharagpur students and enthusiastic GES '24 participants." />
       <ThreeDCardDemo title="INVESTOR-STARTUP CONNECT"
