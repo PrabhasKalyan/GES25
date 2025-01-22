@@ -79,9 +79,13 @@ export const DirectionAwareHover = ({
             <img
               alt="image"
               className={cn("h-full w-full object-cover scale-[1.15] rounded-lg", imageClassName)}
-              width="1000"
-              height="1000"
+              width="auto"
+              height="auto"
               src={imageUrl}
+              variants={{
+                hover: { scale: 1.1 },
+                initial: { scale: 1 },
+              }}
                />
           </motion.div>
           <motion.div

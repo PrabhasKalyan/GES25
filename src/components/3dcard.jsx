@@ -22,6 +22,7 @@ export function ThreeDCardDemo({title,image,description}) {
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail" />
         </CardItem>
+        <br></br>
         <CardItem
           as="p"
           translateZ="60"

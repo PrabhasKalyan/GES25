@@ -45,7 +45,9 @@ export function CompetitionsDemo() {
   <div >
     <h2 className="font-bold text-lg mb-2">R&D Symposium</h2>
     <ShineBorder
-      className="relative flex h-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+      // className="relative flex h-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+      // color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+      className="relative flex flex-col items-center justify-center overflow-hidden rounded-lg border border-transparent bg-background md:shadow-xl box-border"
       color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
     >
       <div className="h-full w-full flex items-center justify-center">
@@ -66,7 +68,9 @@ export function CompetitionsDemo() {
   <div >
     <h2 className="font-bold text-lg mb-2">Invest-O-Spective</h2>
     <ShineBorder
-      className="relative flex h-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+      // className="relative flex h-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+      // color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+      className="relative flex flex-col items-center justify-center overflow-hidden rounded-lg border border-transparent bg-background md:shadow-xl box-border"
       color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
     >
       <div className="h-full w-full flex items-center justify-center">
@@ -86,7 +90,9 @@ export function CompetitionsDemo() {
   <div>
     <h2 className="font-bold text-lg mb-2">Business Game</h2>
     <ShineBorder
-      className="relative flex h-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+      // className="relative flex h-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+      // color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+      className="relative flex flex-col items-center justify-center overflow-hidden rounded-lg border border-transparent bg-background md:shadow-xl box-border"
       color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
     >
       <div className="h-full w-full flex items-center justify-center">
