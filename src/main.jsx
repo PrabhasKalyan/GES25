@@ -66,12 +66,13 @@ createRoot(document.getElementById('cards1')).render(
       image="./assets/images/sna/2011.i504.024_isometric expo stand exhibition illustration.jpg" />
       <ThreeDCardDemo 
       title="Million At Stake"
-      description="Showcase your innovative products in front of a vast audience comprising the tech-savvy generation of students, eminent entrepreneurs, industry leaders, and professors."
-      image="./assets/images/sna/2011.i504.024_isometric expo stand exhibition illustration.jpg" />
+      description="Step into the world of limitless possibilities at Million at Stake, where visionary ideas meet powerful investors. Empower your startup, raise the funds you need, and transform your dreams into a thriving reality with the perfect platform for growth."
+      image="https://www.ecell-iitkgp.org/millionatstake/logo.png" />
       <ThreeDCardDemo 
       title="Empressario"
-      description="Showcase your innovative products in front of a vast audience comprising the tech-savvy generation of students, eminent entrepreneurs, industry leaders, and professors."
-      image="./assets/images/sna/2011.i504.024_isometric expo stand exhibition illustration.jpg" />
+      description="
+Empresario, IIT Kharagpur's annual business model competition, offers mentorship and a platform to pitch ideas to Venture Capitalists, Angel Investors, and Industry Leaders"
+      image="https://www.ecell-iitkgp.org/images/empresario.jpeg" />
       
     </div>
   </BrowserRouter>
